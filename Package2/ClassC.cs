@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace Package2
 {
-    public class ClassC
+    public class ClassC : IInterfaceC
     {
-        internal void Method1()
+        public void Method1()
         {
             
         }

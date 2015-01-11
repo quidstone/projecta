@@ -8,13 +8,24 @@ namespace Package2
 {
     public class ClassZ
     {
+        private IInterfaceJ _j;
+        private IInterfaceQ _q;
+
+        public void SetJ(IInterfaceJ j)
+        {
+            _j = j;
+        }
+        public void SetQ(IInterfaceQ q)
+        {
+            _q = q;
+        }
         public void Method2()
         {
-            ClassJ j = new ClassJ();
-            j.Method1();
+          
+            _j.Method1();
 
-            ClassQ q = new ClassQ();
-            q.Method3();
+            
+            _q.Method3();
         }
     }
 }

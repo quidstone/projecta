@@ -6,11 +6,8 @@ using System.Threading.Tasks;
 
 namespace Package1
 {
-    public class ClassK
+    public interface IInterfaceR
     {
-        public void Method1()
-        {
-
-        }
+        void Method1();
     }
 }

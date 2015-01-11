@@ -43,11 +43,10 @@
     <Compile Include="ClassG.cs" />
     <Compile Include="ClassH.cs" />
     <Compile Include="ClassN.cs" />
-    <Compile Include="ClassR.cs" />
-    <Compile Include="ClassS.cs" />
     <Compile Include="ClassW.cs" />
-    <Compile Include="ClassY.cs" />
+    <Compile Include="IInterfaceG.cs" />
     <Compile Include="IInterfaceSomething.cs" />
+    <Compile Include="IInterfaceYP3.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

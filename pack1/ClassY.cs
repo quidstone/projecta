@@ -3,24 +3,17 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Package1;
+using Package3;
 
 namespace Package3
 {
-    public class ClassS
+    public class ClassY : IInterfaceYP1, IInterfaceYP3
     {
-        public void Method1()
+        public int Method2()
         {
-
-        }
-
-        public void Method2()
-        {
-
-        }
-
-        public void Method3()
-        {
-
+            return 5;
+			// this is a comment
         }
     }
 }

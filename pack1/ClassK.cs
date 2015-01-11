@@ -3,15 +3,15 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Package2;
 
-namespace Package3
+namespace Package1
 {
-    public class ClassY
+    public class ClassK : IInterfaceK
     {
-        public int Method2()
+        public void Method1()
         {
-            return 5;
-			// this is a comment
+
         }
     }
 }

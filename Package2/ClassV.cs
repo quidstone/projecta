@@ -8,10 +8,15 @@ namespace Package2
 {
     public class ClassV
     {
+        private IInterfaceC _c;
+        public void SetC(IInterfaceC c)
+        {
+            _c = c;
+        }
         public void Method2()
         {
-            ClassC c = new ClassC();
-            c.Method1();
+           
+            _c.Method1();
         }
     }
 }

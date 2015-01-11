@@ -42,14 +42,19 @@
     <Compile Include="ClassA.cs" />
     <Compile Include="ClassD.cs" />
     <Compile Include="ClassF.cs" />
-    <Compile Include="ClassK.cs" />
     <Compile Include="ClassL.cs" />
     <Compile Include="ClassM.cs" />
     <Compile Include="ClassT.cs" />
     <Compile Include="ClassU.cs" />
     <Compile Include="ClassX.cs" />
+    <Compile Include="IInterfaceA.cs" />
     <Compile Include="IInterfaceE.cs" />
     <Compile Include="IInterfaceP.cs" />
+    <Compile Include="IInterfaceR.cs" />
+    <Compile Include="IInterfaceS.cs" />
+    <Compile Include="IInterfaceT.cs" />
+    <Compile Include="IInterfaceX.cs" />
+    <Compile Include="IInterfaceYP1.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

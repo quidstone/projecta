@@ -9,10 +9,18 @@ namespace Package2
 {
     public class ClassO
     {
+       
+        private IInterfaceT _t;
+
+        public void SetT(IInterfaceT t)
+        {
+            _t = t;
+            
+        }
         public void Method2()
         {
-            ClassT t = new ClassT(new ClassE());
-            t.Method2();
+            
+            _t.Method2();
 			
 			// this is another test comment
         }

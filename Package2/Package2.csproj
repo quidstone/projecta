@@ -48,6 +48,10 @@
     <Compile Include="ClassQ.cs" />
     <Compile Include="ClassV.cs" />
     <Compile Include="ClassZ.cs" />
+    <Compile Include="IInterfaceC.cs" />
+    <Compile Include="IInterfaceJ.cs" />
+    <Compile Include="IInterfaceK.cs" />
+    <Compile Include="IInterfaceQ.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

@@ -4,13 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Package3
+namespace Package2
 {
-    public class ClassR
+    public interface IInterfaceC
     {
-        public void Method1()
-        {
-
-        }
+        void Method1();
     }
 }

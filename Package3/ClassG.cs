@@ -6,11 +6,12 @@ using System.Threading.Tasks;
 
 namespace Package3
 {
-    internal class ClassG
+    public class ClassG  : IInterfaceG
     {
-        internal void Method1()
+        public void Method1()
         {
 
         }
     }
+ 
 }

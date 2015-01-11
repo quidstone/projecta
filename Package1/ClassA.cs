@@ -7,8 +7,19 @@ using System.Threading.Tasks;
 
 namespace Package1
 {
-    public class ClassA
+    public class ClassA : IInterfaceA
     {
+        private IInterfaceS _s;
+        private IInterfaceYP1 _y;
+
+        public void SetS( IInterfaceS s)
+        {
+            _s = s;
+        }
+        public void SetY1( IInterfaceYP1 y)
+        {
+            _y = y;
+        }
         public void Method1()
         {
 
@@ -16,15 +27,15 @@ namespace Package1
 
         public void Method2()
         {
-            ClassS s = new ClassS();
-            s.Method3();
-            s.Method1();
+            
+            _s.Method3();
+            _s.Method1();
         }
 
         public void Method3()
         {
-            ClassY y = new ClassY();
-            y.Method2();
+            
+            _y.Method2();
         }
     }
 }

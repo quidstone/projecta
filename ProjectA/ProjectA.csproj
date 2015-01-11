@@ -53,6 +53,10 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\pack1\pack1.csproj">
+      <Project>{d34cf260-8619-4fc9-96c8-f6b06156280b}</Project>
+      <Name>pack1</Name>
+    </ProjectReference>
     <ProjectReference Include="..\Package1\Package1.csproj">
       <Project>{2bb5ed6d-0793-4250-bd3d-b2a6a59a71a7}</Project>
       <Name>Package1</Name>

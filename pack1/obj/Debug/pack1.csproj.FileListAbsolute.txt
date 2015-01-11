@@ -1,0 +1,11 @@
+C:\Users\rahat\Desktop\git\projecta\pack1\obj\Debug\pack1.csprojResolveAssemblyReference.cache
+C:\Users\rahat\Desktop\git\projecta\pack1\bin\Debug\pack1.dll
+C:\Users\rahat\Desktop\git\projecta\pack1\bin\Debug\pack1.pdb
+C:\Users\rahat\Desktop\git\projecta\pack1\bin\Debug\Package1.dll
+C:\Users\rahat\Desktop\git\projecta\pack1\bin\Debug\Package3.dll
+C:\Users\rahat\Desktop\git\projecta\pack1\bin\Debug\Package1.pdb
+C:\Users\rahat\Desktop\git\projecta\pack1\bin\Debug\Package3.pdb
+C:\Users\rahat\Desktop\git\projecta\pack1\obj\Debug\pack1.dll
+C:\Users\rahat\Desktop\git\projecta\pack1\obj\Debug\pack1.pdb
+C:\Users\rahat\Desktop\git\projecta\pack1\bin\Debug\Package2.dll
+C:\Users\rahat\Desktop\git\projecta\pack1\bin\Debug\Package2.pdb
